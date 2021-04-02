@@ -48,7 +48,7 @@ main .top-img p{
 
 }
 main .top-img img{
-    width: 80%;
+    width: 60%;
     height: auto;
 }
 main .top-img .sp {
@@ -100,7 +100,7 @@ main .top-img .sp {
   }
 /*header 終わり　body 始まり*/
 main {
-    background-image: url(img/cherryblossam.jpg);
+    background-image: url(img/cherry.jpg);
 }
 main .menu-list{
     width: 80%;
@@ -199,7 +199,7 @@ main .desert {
 }
 .comment-box img {
     width: 30vw;
-    height: 35vw;
+    height: 30vw;
 }
 /*ビネガードリンク*/
 .drink-item{
@@ -273,18 +273,24 @@ main .desert .drink-item .text-box > .item-title:first-child{
     background:white;
 }
 
-footer{
-    background-color: #41342d;
-    width: 100%;
-    padding: 1.8rem 0;
-}
-footer .footerLogo p {
+footer {
+    margin: 0;
+    padding: 50px 0 30px;
+    background: #41342d;
     text-align: center;
+    display: block;
+}
+footer span > img{
+    padding-bottom: 30px!important;
 }
 
 footer .copyright {
     text-align: center;
     color:white;
+    font-size: 12px;
+    letter-spacing: 1px!important;
+    margin: 0;
+    padding: 0;;
 }
 main .desert .drink-item .text-box {
     margin-top: 0;
@@ -319,6 +325,9 @@ main .desert .drink-item .text-box {
     .item-subtitle {
         font-size: 12px;
     }
+    .drink-item {
+        margin-top: 2.5rem;
+    }
     .desert .drink-item > .text-box {
         width: 100%;
     }
@@ -340,6 +349,15 @@ main .desert .drink-item .text-box {
     .drink-set {
         font-size: 12px;
     }  
+    footer {
+        margin: 0;
+        padding: 25px 0 15px;
+    }
+    
+    footer span img{
+        width: 15%!important;
+        padding-bottom: 10px!important;
+    }
 
 }
 
@@ -563,9 +581,6 @@ main .desert .drink-item .text-box {
     }
     */
     
-    .main .menu-list {
-     
-    }
     .sp-br {
         display: none;
     }
@@ -597,4 +612,11 @@ main .desert .drink-item .text-box {
 
     .bg-white{
     height:75px;
+    }
+    footer span img {
+        width: 20%!important;
+        padding-bottom: 15px;
+    }
+    footer .copyright {
+        font-size: 10px;
     }
