@@ -38,6 +38,9 @@ header ul li{
 header ul li a{
     text-decoration: none;
 }
+main {
+    overflow: hidden;
+  }
 main .top-img{
     padding-top:50px;
     background-color: #fff;
